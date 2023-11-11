@@ -1,0 +1,70 @@
+.aboutMe {
+    background: linear-gradient(45deg, #76b8e3, #d9c5e2); /* Gradient background */
+    color: white; /* Text color */
+    text-align: center;
+    padding: 40px; /* Increased padding for a more spacious feel */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Added a subtle box shadow */
+    margin-bottom: 20px; /* Increased margin for separation */
+}
+
+.aboutMe h1 {
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+}
+
+.aboutMe h2 {
+    font-family: 'Ubuntu', sans-serif; /* Changed font family for section headers */
+    font-size: 1.5em; /* Increased font size for section headers */
+}
+
+.aboutMe p {
+    font-family: 'Work Sans', sans-serif; /* Changed font family for paragraph text */
+    line-height: 1.5; /* Adjusted line height for better readability */
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.divider {
+    background: linear-gradient(45deg, #76b8e3, #d9c5e2);
+    width: 3px;
+    margin-top: 8px;
+}
+
+.section {
+    border-radius: 15px;
+    width: fit-content;
+    background: linear-gradient(45deg, #76b8e3, #d9c5e2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+li::before {
+    content: "\2023";
+    color: #3498db;
+    font-size: 1.2em;
+    position: absolute;
+    left: 0;
+}
+
+.first-word {
+    font-weight: bold;
+}
